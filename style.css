@@ -21,7 +21,7 @@
 
 
 h1, h2, h3 {
-    font-family: "Hubballi", sans-serif;
+    text-transform: uppercase;
 }
 
 #contact{
@@ -36,10 +36,23 @@ h1, h2, h3 {
 #container {
     display: grid;
     grid-template-columns: 30% auto;
+    grid-column-gap: 20px;
 }
 
 #sidebar, #content {
     display: flex;
     flex-direction: column;
+    row-gap: 20px;
+}
 
+.card h3{
+    font-family: "Hubballi", sans-serif;
+
+}
+
+.card{
+    font-family: Montserrat;
+    border: 1px solid rgb(177, 172, 172);
+    border-radius: 15px;
+    padding: 20px;
 }
