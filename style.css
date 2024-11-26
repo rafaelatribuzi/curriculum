@@ -1,0 +1,45 @@
+#header {
+    background-color: rgb(27, 6, 70);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Hubballi", sans-serif;
+    text-transform: uppercase;
+
+}
+
+#nomeAndTitle {
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+        
+}
+
+#nomeAndTitle h1, h2 {
+    margin: 0;
+}
+
+
+h1, h2, h3 {
+    font-family: "Hubballi", sans-serif;
+}
+
+#contact{
+    list-style-type: none;
+}
+
+#contact i {
+    width: 30px;
+    color: rgb(27, 6, 70) ;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+
+}
